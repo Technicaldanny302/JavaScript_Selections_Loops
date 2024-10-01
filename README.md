@@ -37,7 +37,9 @@ For exercise 3, repeat both exercise 1 and 2 as `while` and `do/while` loop solu
 
 ## Exercise 4: Find Value
 
-In this exercise, you will count from iterate from 1 to n. If you iterate over a given value, then break out the loop and print "Found value!". If you do not find the value in the given range, print "Did not find value".
+In this exercise, you will count from iterate from 1 to n. If you iterate over a given value,
+then break out the loop and print "Found value!".
+If you do not find the value in the given range, print "Did not find value".
 
 1. Start with the following code:
 
@@ -47,12 +49,15 @@ let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random numbe
 ```
 
 2. Create a `for` loop that iterates from 0 to n
-3. If your current iteration is equal to `value`, then print "Found value!", and `break` out of the loop
-4. If you do not ever find the value and break out of the loop, then after the loop is finished, print "Did not find value"
+3. If your current iteration is equal to `value`, then print "Found value!", 
+and `break` out of the loop
+4. If you do not ever find the value and break out of the loop, then after the
+   loop is finished, print "Did not find value"
 
 ## Exercise 5: Customized FIZZBUZZ
 
-We already completed the FIZZBUZZ challenge. Now repeat the logic for the FIZZBUZZ challege with values provided in variables.
+We already completed the FIZZBUZZ challenge. Now repeat the logic for the FIZZBUZZ challege
+with values provided in variables.
 
 1. Start with the following code:
 
@@ -63,7 +68,9 @@ let n = Math.round(Math.random() * (1000 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 ```
 
-2. Re-implement exercise 2, but use `start` as the initial value for `i`, `n` as the range limit in `i <= n`, and `fizzDivisor` and `buzzDivisor` as the dependent values for determining "FIZZ" and "BUZZ" print messages.
+2. Re-implement exercise 2, but use `start` as the initial value for `i`, `n` as the range 
+   limit in `i <= n`, and `fizzDivisor` and `buzzDivisor` as the dependent values for determining
+   "FIZZ" and "BUZZ" print messages.
 
 ---
 
